@@ -1,0 +1,31 @@
+// @import url('https font');
+
+// LAYOUT 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    width: 75%;
+    margin: 0 auto;
+    border: 1px dashed red;
+}
+.row {
+    width: 100%;
+    display: flex;
+}
+
+// FINE LAYOUT
+
+img {
+    max-width: 100%;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}

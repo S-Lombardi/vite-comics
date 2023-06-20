@@ -21,25 +21,10 @@ export default {
   </div>
 </template>
 
-<style>
+<style lang="scss" scoped>
 
-.container{
-  width: 75%;
-  margin: 0 auto;
-  border: 1px dashed red;
-}
+@use './styles/generals.scss' as *;
+@use './styles/partials/variables' as *;
 
-.row{
-  width: 100%;
-  display: flex;
-}
-
-li{
-  list-style-type: none;
-}
-
-a{
-  text-decoration: none;
-}
 
 </style>
