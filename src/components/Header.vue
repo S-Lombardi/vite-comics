@@ -75,7 +75,7 @@ export default{
                 <div class="col-right">
                     <ul>
                         <li v-for="(link, index) in links" :key="index">
-                            <a  :href="link.link">{{ link.label }}</a>
+                            <a :class="link.active ? 'active' : ' ' " :href="link.link">{{ link.label }}</a>
                         </li>
 
                     </ul>
@@ -89,6 +89,10 @@ export default{
 
 
 <style lang="scss" scoped>
+@use '../styles/partials/variables' as *;
+.active{
+    color: $primary_color;
+}
 .row{
     justify-content: space-between;
 }
@@ -100,8 +104,11 @@ ul{
 
     li{
         margin-right: 20px;
+        a{
+            text-transform: uppercase;
+            color: $gray_color;
+        }
     }
 }
-
 
 </style>
