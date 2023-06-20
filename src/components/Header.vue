@@ -1,5 +1,65 @@
 <script>
 
+export default{
+    data(){
+        return{
+            links:[
+                {
+                    label:'Characters',
+                    link:'#',
+                    active: false,
+                },
+                {
+                    label:'Comics',
+                    link:'#',
+                    active: true,
+                },
+                {
+                    label:'Movies',
+                    link:'#',
+                    active: false,
+                },
+                {
+                    label:'Tv',
+                    link:'#',
+                    active: false,
+                },
+                {
+                    label:'Games',
+                    link:'#',
+                    active: false,
+                },
+                {
+                    label:'Collectibles',
+                    link:'#',
+                    active: false,
+                },
+                {
+                    label:'Videos',
+                    link:'#',
+                    active: false,
+                },
+                {
+                    label:'Fans',
+                    link:'#',
+                    active: false,
+                },
+                {
+                    label:'News',
+                    link:'#',
+                    active: false,
+                },
+                {
+                    label:'Shop',
+                    link:'#',
+                    active: false,
+                },
+            
+            ]
+
+        }
+    }
+}
 </script>
 
 
@@ -7,21 +67,16 @@
     <header>
         <div class="container">
             <div class="row">
+                <!-- LOGO DC -->
                 <div class="col-left">
-                    LOGO
+                    <img src="../../public/dc-logo.png" alt="">
                 </div>
+                <!-- LINK -->
                 <div class="col-right">
                     <ul>
-                        <li><a href="#">Characters</a></li>
-                        <li><a href="#">Comics</a></li>
-                        <li><a href="#">Movies</a></li>
-                        <li><a href="#">Tv</a></li>
-                        <li><a href="#">Games</a></li>
-                        <li><a href="#">Collectibles</a></li>
-                        <li><a href="#">Videos</a></li>
-                        <li><a href="#">Fans</a></li>
-                        <li><a href="#">News</a></li>
-                        <li><a href="#">Shop</a></li>
+                        <li v-for="(link, index) in links" :key="index">
+                            <a  :href="link.link">{{ link.label }}</a>
+                        </li>
 
                     </ul>
                 
@@ -33,17 +88,20 @@
 </template>
 
 
-<style scoped>
+<style lang="scss" scoped>
 .row{
     justify-content: space-between;
 }
 
 ul{
+    height: 100%;
     display: flex;
+    align-items: center;
+
+    li{
+        margin-right: 20px;
+    }
 }
-
-
-
 
 
 </style>
