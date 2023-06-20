@@ -94,7 +94,7 @@
                             <li><strong>Follow us</strong></li>
                             <li>
                                 <a href="#">
-                                    <i class="fa-brands fa-facebook-f"></i>
+                                    <i class="fa-solid fa-arrow-right"></i>
                                 </a>
                             </li>
                             <li><a href="#">logo</a></li>
