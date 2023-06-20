@@ -104,9 +104,17 @@ ul{
 
     li{
         margin-right: 20px;
+
+
         a{
             text-transform: uppercase;
             color: $gray_color;
+            
+            &:hover {
+                color: rgb(131, 161, 184);
+    
+            }
+            
         }
     }
 }
