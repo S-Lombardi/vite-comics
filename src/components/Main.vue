@@ -5,12 +5,17 @@
 
 <template>
     <main>
-        MAIN
+        <div class="container">
+            <div class="row">
+                CONTENT HERE
+            </div>
+        </div>
     </main>
     
 </template>
 
 
-<style>
+<style scoped>
+
 
 </style>

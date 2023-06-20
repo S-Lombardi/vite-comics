@@ -18,10 +18,28 @@ export default {
     <Header/>
     <Main/>
     <Footer/>
-
   </div>
 </template>
 
-<style scoped>
+<style>
+
+.container{
+  width: 75%;
+  margin: 0 auto;
+  border: 1px dashed red;
+}
+
+.row{
+  width: 100%;
+  display: flex;
+}
+
+li{
+  list-style-type: none;
+}
+
+a{
+  text-decoration: none;
+}
 
 </style>
