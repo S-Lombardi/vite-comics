@@ -8,20 +8,21 @@
         <!-- TOP FOOTER -->
         <div id="top-footer">
             <div class="container">
-                
                 <div class="row">
-                    <ul class="blu-block">
-                        <li><a href="#">Digital Comics</a></li>
+                    <ul class="top-footer">
+                        <li>
+                            <img src="../assets/img/buy-comics-digital-comics.png" alt="1">
+                            <a href="#">Digital Comics</a>
+                        </li>
                         <li><a href="#">Dc Merchandise</a></li>
                         <li><a href="#">Subcrtiption</a></li>
-                        <li><a href="#">Comics shop locator</a></li>
+                        <li><a href="#">Comics shop Locator</a></li>
                         <li><a href="#">Dc Power Visa</a></li>
                         <li><a href="#">Collectibles</a></li>
                             
                     </ul>
                 </div>
             </div>
-
         </div>
         <!-- FINE TOP FOOTER -->
         <div id="center-footer">
@@ -110,10 +111,27 @@
 }
 
 
-.blu-block{
+.top-footer{
     width: 100%;
     display: flex;
     justify-content: center;
+    justify-content: space-evenly;
+
+    li{
+        padding: 40px 0px;
+        display: flex;
+        
+        a{
+            color: white;
+            align-self:center;
+            margin-left: 10px;
+        }
+        img{
+            width: 50px;
+        }
+  
+    }
+    
 }
 .flex{
     display: flex;
