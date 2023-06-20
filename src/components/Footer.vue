@@ -25,6 +25,7 @@
             </div>
         </div>
         <!-- FINE TOP FOOTER -->
+        <!-- CENTER FOOTER -->
         <div id="center-footer">
             <div class="container">
                 <div class="row">
@@ -64,7 +65,7 @@
                         <li><a href="#">Dc Power Visa</a></li>
                               
                     </ul>
-                    <ul>
+                    <ul class="absolute">
                         <li><strong>Shop</strong></li>
                         <li><a href="#">Shop Dc</a></li>
                         <li><a href="#">Shop Dc Collectibles</a></li>
@@ -72,33 +73,43 @@
                     </ul>
                 </div>
             </div>
-
+            
+            <!-- <img src="../assets/img/dc-logo-bg.png" alt="bg"> -->
+            
         </div>
-
+        <!-- FINE CENTER FOOTER -->
+        <!-- BOTTOM FOOTER -->
         <div id="bottom-footer">
             <div class="container">
                 <div class="row">
+                    <!-- PULSANTE -->
                     <div class="col-left">
-                        PULSANTE
+                        <button>
+                            SIGN-UP NOW!
+                        </button>
                     </div>
+                    <!-- LINK -->
                     <div class="col-right">
-                        <ul class="flex">
+                        <ul>
                             <li><strong>Follow us</strong></li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa-brands fa-facebook-f"></i>
+                                </a>
+                            </li>
                             <li><a href="#">logo</a></li>
                             <li><a href="#">logo</a></li>
                             <li><a href="#">logo</a></li>
                             <li><a href="#">logo</a></li>
-                            <li><a href="#">logo</a></li>
-    
                         </ul>
                     
                     </div>
     
                 </div>
             </div>
-        
-
+    
         </div>
+        <!-- FINE BOTTOM FOOTER -->
     </footer>
 </template>
 
@@ -106,11 +117,11 @@
 <style lang="scss" scoped>
 @use '../styles/partials/variables' as*;
 
+//TOP FOOTER
 #top-footer{
     background-color: $primary_color;
+    padding: 40px 0px;
 }
-
-
 .top-footer{
     width: 100%;
     display: flex;
@@ -118,9 +129,7 @@
     justify-content: space-evenly;
 
     li{
-        padding: 40px 0px;
         display: flex;
-        
         a{
             color: white;
             align-self:center;
@@ -133,9 +142,72 @@
     }
     
 }
-.flex{
-    display: flex;
+//FINE TOP FOOTER
+
+// CENTER FOOTER
+.absolute{
+    position: absolute;
+    bottom: 154px;
 }
+
+#center-footer{
+    padding: 70px 0px;
+    background-image: url(../assets/img/footer-bg.jpg);
+
+    ul{
+        margin-right: 20px;
+        li{
+            strong{
+                color: white;
+                font-size: 21px;
+            }
+            a{
+                color: rgb(138, 138, 138);
+                line-height: 25px;
+            }
+        }
+    }
+
+}
+// FINE CENTER FOOTER
+
+
+//FOOTER BOTTOM
+#bottom-footer{
+    background-color: $gray_color;
+    padding: 30px 0px;
+    .row{
+        justify-content: space-between;
+
+        button{
+            padding: 10px 20px ;
+            border: 2px solid $primary_color;
+            cursor: pointer;
+            font-weight:800;
+            color: white;
+            background-color: rgba(255, 0, 0, 0);
+        }
+
+        ul{
+            height: 100%;
+            display: flex;
+            align-items: center;
+            li{
+                margin-left: 10px;
+
+                strong{
+                    color: $primary_color;
+                    text-transform: uppercase;
+                }
+            }
+
+        }
+    }
+
+    
+}
+//FINE FOOTER BOTTOM
+
 
 
 </style>
