@@ -164,7 +164,7 @@
             margin-left: 10px;
         }
         img{
-            width: 50px;
+            height: 60px;
         }
   
     }
@@ -173,10 +173,6 @@
 //FINE TOP FOOTER
 
 // CENTER FOOTER
-.absolute{
-    position: absolute;
-    bottom: 154px;
-}
 
 #center-footer{
     padding: 70px 0px;
@@ -193,9 +189,8 @@
                 color: rgb(138, 138, 138);
                 line-height: 25px;
             }
-        }
-    }
-
+       }      
+    }  
 }
 // FINE CENTER FOOTER
 
