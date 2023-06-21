@@ -1,5 +1,12 @@
 <script>
+//dico che esiste la nuova componente cardComics
+import cardComics from './cardComics.vue'
+
 export default{
+
+    //Qui dico che può utilizzare la componente
+  components: { cardComics },
+
     data(){
         return{
             comics: [
@@ -86,48 +93,12 @@ export default{
     <main>
         <div class="container">
             <div class="row">
-                <div class="col">
-                    
-                </div>
-                <div class="col">
-                    
-                </div>
-                <div class="col">
-                    
-                </div>
-                <div class="col">
-                    
-                </div>
-                <div class="col">
-                    
-                </div>
-                <div class="col">
-                    
-                </div>
+                <div class="col" v-for="(comic, index) in comics" :key="index" >
 
-
-
-                <div class="col">
-                    
-                </div>
-                <div class="col">
-                    
-                </div>
-                <div class="col">
-                    
-                </div>
-                <div class="col">
-                    
-                </div>
-                <div class="col">
-                    
-                </div>
-                <div class="col">
+                    <cardComics :title="comic.series"/>
                     
                 </div>
                 
-                
-
                 
             </div>
         </div>
@@ -147,11 +118,9 @@ export default{
     width: calc(100% / 6 - 20px);
     margin: 10px;
     border: 1px dashed red;
-}
-.content{
     color: white;
-    padding: 50px 0px;
 }
+
 main{
     background-color: $black_color ;
 }

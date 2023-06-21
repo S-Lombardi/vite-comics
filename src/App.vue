@@ -27,6 +27,5 @@ export default {
 <style lang="scss">
 @use './styles/generals.scss' as *;
 @use './styles/partials/variables' as *;
-@use "../node_modules/font-awesome/scss/font-awesome" as *;
 
 </style>
