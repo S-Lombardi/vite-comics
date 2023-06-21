@@ -86,9 +86,48 @@ export default{
     <main>
         <div class="container">
             <div class="row">
-                <div class="content">
-                    CONTENT HERE
+                <div class="col">
+                    
                 </div>
+                <div class="col">
+                    
+                </div>
+                <div class="col">
+                    
+                </div>
+                <div class="col">
+                    
+                </div>
+                <div class="col">
+                    
+                </div>
+                <div class="col">
+                    
+                </div>
+
+
+
+                <div class="col">
+                    
+                </div>
+                <div class="col">
+                    
+                </div>
+                <div class="col">
+                    
+                </div>
+                <div class="col">
+                    
+                </div>
+                <div class="col">
+                    
+                </div>
+                <div class="col">
+                    
+                </div>
+                
+                
+
                 
             </div>
         </div>
@@ -100,6 +139,15 @@ export default{
 <style lang="scss" scoped>
 @use '../styles/partials/variables' as *;
 
+.row{
+    flex-wrap: wrap;
+}
+.col{
+    min-height: 100px;
+    width: calc(100% / 6 - 20px);
+    margin: 10px;
+    border: 1px dashed red;
+}
 .content{
     color: white;
     padding: 50px 0px;
