@@ -1,10 +1,12 @@
 <script>
+
+//Importo gli elementi che voglio visualizzare dell'array comics
+//che si trova nella componente padre Main
 export default {
     props:{
         image: String,
         title: String,
     }
-    
 }
 </script>
 
@@ -12,9 +14,6 @@ export default {
     <div>
         <img :src="image" alt="">
         {{title}}
-
-        CARD
-
     </div>
 </template>
 

@@ -1,10 +1,11 @@
 <script>
 //dico che esiste la nuova componente cardComics
+//in cui devo visualizzare le card dei fumetti
 import cardComics from './cardComics.vue'
 
 export default{
 
-    //Qui dico che può utilizzare la componente
+    //Qui dico che può utilizzare la componente 
   components: { cardComics },
 
     data(){
