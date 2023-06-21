@@ -93,9 +93,9 @@ export default{
     <main>
         <div class="container">
             <div class="row">
-                <div class="col" v-for="(comic, index) in comics" :key="index" >
+                <div class="col" v-for="(item, index) in comics" :key="index" >
 
-                    <cardComics :title="comic.series"/>
+                    <cardComics :title="item.series" :image="item.thumb"/>
                     
                 </div>
                 

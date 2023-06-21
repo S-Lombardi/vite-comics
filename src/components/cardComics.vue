@@ -10,9 +10,9 @@ export default {
 
 <template lang="">
     <div>
-
+        <img :src="image" alt="">
         {{title}}
-        
+
         CARD
 
     </div>
