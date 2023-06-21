@@ -11,14 +11,25 @@
                 <div class="row">
                     <ul class="top-footer">
                         <li>
-                            <img src="../assets/img/buy-comics-digital-comics.png" alt="1">
+                            <img src="../assets/img/buy-comics-digital-comics.png" alt="">
                             <a href="#">Digital Comics</a>
                         </li>
-                        <li><a href="#">Dc Merchandise</a></li>
-                        <li><a href="#">Subcrtiption</a></li>
-                        <li><a href="#">Comics shop Locator</a></li>
-                        <li><a href="#">Dc Power Visa</a></li>
-                        <li><a href="#">Collectibles</a></li>
+                        <li>
+                            <img src="../assets/img/buy-comics-merchandise.png" alt="">
+                            <a href="#">Dc Merchandise</a>
+                        </li>
+                        <li>
+                            <img src="../assets/img/buy-comics-subscriptions.png" alt="">
+                            <a href="#">Subcrtiption</a>
+                        </li>
+                        <li>
+                            <img src="../assets/img/buy-comics-shop-locator.png" alt="">
+                            <a href="#">Comics shop Locator</a>
+                        </li>
+                        <li>
+                            <img src="../assets/img/buy-dc-power-visa.svg" alt="">
+                            <a href="#">Dc Power Visa</a>
+                        </li>
                             
                     </ul>
                 </div>
