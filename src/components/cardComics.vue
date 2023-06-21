@@ -1,5 +1,4 @@
 <script>
-
 //Importo gli elementi che voglio visualizzare dell'array comics
 //che si trova nella componente padre Main
 export default {
@@ -12,13 +11,31 @@ export default {
 
 <template lang="">
     <div>
+        <!-- Immagine fumetto -->
         <img :src="image" alt="">
-        {{title}}
+        <!-- Titolo serie fumetto -->
+        <div class="comic-title">
+            {{title}}
+        </div>
     </div>
 </template>
 
-<style lang="scss">
+
+<style lang="scss" scoped>
+@use '../styles/partials/variables' as *;
 
 
-    
+.comic-title{
+    color: white;
+    text-transform: uppercase;
+}
+
+img{
+object-fit: cover;
+    width: 149px;
+    height: 149px;
+
+}
+
+ 
 </style>

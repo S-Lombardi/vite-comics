@@ -93,15 +93,15 @@ export default{
 <template>
     <main>
         <div class="container">
+            <!-- CARD COMICS -->
             <div class="row">
                 <div class="col" v-for="(item, index) in comics" :key="index" >
 
                     <cardComics :title="item.series" :image="item.thumb"/>
-                    
                 </div>
                 
-                
             </div>
+            <!-- FINE CARD COMICS -->
         </div>
     </main>
     
@@ -115,15 +115,15 @@ export default{
     flex-wrap: wrap;
 }
 .col{
-    min-height: 100px;
-    width: calc(100% / 6 - 20px);
-    margin: 10px;
+    width: calc(100% / 6 - 40px);
+    margin: 20px;
     border: 1px dashed red;
-    color: white;
+    display: flex;
 }
 
 main{
     background-color: $black_color ;
+    padding: 40px 0px;
 }
 
 
