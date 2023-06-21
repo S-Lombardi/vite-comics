@@ -1,8 +1,10 @@
 <script>
+//Esistono queste componenti
 import Header from './components/Header.vue'
 import Main from './components/Main.vue'
 import Footer from './components/Footer.vue'
 
+//Posso utilizzare le componenti
 export default {
   components:{
     Header,
@@ -13,6 +15,7 @@ export default {
 }
 </script>
 
+<!-- Visualizzo le componenti -->
 <template>
   <div>
     <Header/>

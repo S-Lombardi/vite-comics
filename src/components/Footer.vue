@@ -94,13 +94,30 @@
                             <li><strong>Follow us</strong></li>
                             <li>
                                 <a href="#">
-                                    <i class="fa-solid fa-arrow-right"></i>
+                                    <img src="../assets/img/footer-facebook.png" alt="face">
                                 </a>
                             </li>
-                            <li><a href="#">logo</a></li>
-                            <li><a href="#">logo</a></li>
-                            <li><a href="#">logo</a></li>
-                            <li><a href="#">logo</a></li>
+                            <li>
+                                <a href="#">
+                                    <img src="../assets/img/footer-twitter.png" alt="face">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="../assets/img/footer-youtube.png" alt="face">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="../assets/img/footer-pinterest.png" alt="face">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="../assets/img/footer-periscope.png" alt="face">
+                                </a>
+                            </li>
+                        
                         </ul>
                     
                     </div>
