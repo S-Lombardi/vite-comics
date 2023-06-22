@@ -28,4 +28,5 @@ export default {
 @use './styles/generals.scss' as *;
 @use './styles/partials/variables' as *;
 
+
 </style>

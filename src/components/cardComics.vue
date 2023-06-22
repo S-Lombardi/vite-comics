@@ -10,7 +10,7 @@ export default {
 </script>
 
 <template lang="">
-    <div>
+    <div class="comic-content">
         <!-- Immagine fumetto -->
         <img :src="image" alt="">
         <!-- Titolo serie fumetto -->
@@ -24,17 +24,11 @@ export default {
 <style lang="scss" scoped>
 @use '../styles/partials/variables' as *;
 
-
 .comic-title{
     color: white;
     text-transform: uppercase;
-}
-
-img{
-object-fit: cover;
-    width: 149px;
-    height: 149px;
-
+    font-size: 12px;
+    font-family: $font_family;
 }
 
  
