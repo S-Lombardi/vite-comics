@@ -31,5 +31,11 @@ export default {
     font-family: $font_family;
 }
 
+
+img{
+    aspect-ratio: 3/4;
+    object-fit:cover;
+}
+
  
 </style>

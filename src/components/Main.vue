@@ -117,8 +117,7 @@ export default{
 .col{
     width: calc(100% / 6 - 40px);
     margin: 20px;
-    border: 1px dashed red;
-    display: flex;
+    // border: 1px dashed red;
 }
 
 main{

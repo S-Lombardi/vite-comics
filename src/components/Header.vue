@@ -109,6 +109,7 @@ ul{
         a{
             text-transform: uppercase;
             color: $gray_color;
+            font-family: $font_family;
             
             &:hover {
                 color: rgb(131, 161, 184);

@@ -162,6 +162,7 @@
             color: white;
             align-self:center;
             margin-left: 10px;
+            font-family: $font_family;
         }
         img{
             height: 60px;
@@ -188,6 +189,7 @@
             a{
                 color: rgb(138, 138, 138);
                 line-height: 25px;
+                font-family: $font_family;
             }
        }      
     }  
@@ -209,6 +211,7 @@
             font-weight:800;
             color: white;
             background-color: rgba(255, 0, 0, 0);
+            font-family: $font_family;
         }
 
         ul{
@@ -221,6 +224,7 @@
                 strong{
                     color: $primary_color;
                     text-transform: uppercase;
+                    font-family: $font_family;
                 }
             }
 
